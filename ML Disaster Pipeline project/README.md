@@ -12,3 +12,11 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+4. If someone in the future comes with a revised or new dataset of messages, they should be able to easily create a new model. These Python scripts ( process_data.py and train_classifier.py) could be able to run with additional arguments specifying the files used for the data and model.
+Example:
+
+python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+
+python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+
