@@ -30,8 +30,8 @@ def load_data(database_filepath):
     df = df[~(df.isnull().any(axis=1))|((df.original.isnull())&~(df.offer.isnull()))]
 
     # split features and targets
-    X = df['message']
-    y = df.iloc[:,4:]
+    X = df['message'] # x contains features of all messages that use for training 
+    y = df.iloc[:,4:] # y contains labels of all messages that use for training
     categories = y.columns
 
     return X, y, categories
