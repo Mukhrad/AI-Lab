@@ -16,8 +16,8 @@ This technique could be applying on the DNA processing as well in the simple way
 
  ## File description
  
- 1.dog_breed.ipynb: Jupyter Notebook that including all the codes that related this project
- 2.Final Report: The Capstone project article 
+* dog_breed.ipynb: Jupyter Notebook that including all the codes that related this project
+* Final Report: The Capstone project article 
 
 ## Import Datasets
 
@@ -45,6 +45,14 @@ As showcased in the jupyter notebook, I have below analysis results of the input
 * There are 835 validation dog images.
 * There are 836 test dog images.
 * There are 13233 total human images.
+
+## Performance Metrics 
+
+To measure performance of our model we used the following metric:
+
+* Classification Accuracy
+Classification Accuracy is what we usually mean, when we use the term accuracy. It is the ratio of number of correct predictions to the total number of input samples.
+
 
 -----
 ## Project Results:
